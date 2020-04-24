@@ -1,0 +1,81 @@
+body{
+    font-family:  'Poppins', sans-serif;;
+}
+.container{
+    margin-bottom: 35px;
+}
+#slider{
+    background-color: floralwhite;
+    border-radius: 15px;
+}
+
+.carousel-item{
+    padding: 20px 20px;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+p{
+    text-align: justify;
+}
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, black, black);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+#slider::before{
+    content: "Best Products";
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -40%) rotate(-90deg);
+    color: #eee;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.carousel-indicators li{
+    height: 8px;
+    width: 10px;
+    border-radius: 100px;
+    border: none;
+    background-color: #b7babe;
+    opacity: 1;
+
+    
+}
+
+.carousel-indicators li.active{
+    width: 25px;
+    background-image: linear-gradient(to right, tomato , orange);
+}
+
+.seeAll{
+    color: orangered;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.catItem{
+    
+    
+    box-shadow: 0 5px 15px 0px #ddd;
+
+}
+
+footer{
+    text-align: center;
+}
+
